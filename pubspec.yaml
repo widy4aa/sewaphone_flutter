@@ -1,0 +1,38 @@
+name: sewaphone
+description: "A new Flutter project."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.7.2
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+  http: ^0.13.6
+  intl: ^0.18.1      
+  image_picker: ^1.0.4 
+  font_awesome_flutter: ^10.5.0 
+  shared_preferences: ^2.2.2 
+  table_calendar: ^3.0.9 
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/Logo.png
+    - assets/images/iphone_promo.jpg
+    - assets/images/iphone13.jpg
+    - assets/images/iphone15.png
+    - assets/images/Iphone11.jpg
+    - assets/images/iphone14.jpg
+    - assets/images/iphone14pro.jpg
+    - assets/images/profil.png
